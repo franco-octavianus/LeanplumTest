@@ -1,0 +1,25 @@
+# Git will ignore following files to keep the project directory clean #
+
+# .orig files #
+*.orig
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+./Icon?
+ehthumbs.db
+Thumbs.db
+
+# XCode Generated User Configuration Files #
+**/*.xcworkspace/xcuserdata/**
+**/*.xcodeproj/xcuserdata/**
+**/UserInterfaceState.xcuserstate
+*.xcsettings
+*.xcuserstate
+*.xcbkptlist
+
+# Cocoapods Directory
+/Pods
